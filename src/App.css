@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  min-height: calc(100vh - 60px);
+  background-color: #f2f2f7;
+  padding: 1rem;
+}
+
+.App-logo {
+  max-width: 180px;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #1f2f36;
+}
+
+:root {
+  --bs-primary: #0078c8;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: #035f84;
+
+}
+
+.App-link {
+  color: var(--bs-primary)
+}
+
+.edit_table {
+  text-align: left;
+}
+
+.input {
+  background-color: #f2f2f2;
+  border: 1px solid #dad6d6;
+  padding: 5px;
+  color: #1f2f36;
+}
+
+.delete-btn {
+ color: #d73838;
+ border : none;  
+ background-color: transparent;
+ font-weight: bold;
+}
+.delete-btn:hover{
+  color : #850000;
+}
+.text{
+  text-align:left;
+}
+.clear-Button{
+  align-items: right;
+}
+.column1{
+  text-align: left;
+}
+.column2{
+  text-align: right;
+}
+.label{
+  color: grey;
+  text-align:left;
+  display: block;
+}
